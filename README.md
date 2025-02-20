@@ -22,7 +22,11 @@ DB_PASSWORD=your_database_password
 DB_NAME=your_database_name
 ```
 
-### 4️⃣ Start the Server
+### 4️⃣ Import the Database
+Don't forget to import Database MySql with the file that i have shared
+
+
+### 5️⃣ Start the Server
 ```sh
 npm start
 ```
