@@ -109,7 +109,7 @@ const deletePost =async (req,res) =>{
 const getPostbyId = async (req, res) =>{
     const idPost = req.params.idPost
     try{
-        const [datas] = await postModel.getPostById(idPost);
+        const [datas] = await postModel.getPostbyId(idPost);
         if (!datas[0]){
             return res.status(404).json({
                 message: 'Post not found',
